@@ -10,11 +10,11 @@ import com.nagarro.B_friends.controller.FriendController;
 @SpringBootTest
 class BFriendsApplicationTests {
 
-	@Autowired
-	FriendController friendController;
-	@Test
-	void contextLoads() {
-		Assert.notNull(friendController, "no value present.");
-	}
+	/*
+	 * @Autowired FriendController friendController;
+	 * 
+	 * @Test void contextLoads() { Assert.notNull(friendController,
+	 * "no value present."); }
+	 */
 
 }

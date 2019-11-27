@@ -3,11 +3,18 @@ package com.nagarro.B_friends;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * 
+ * @author prabhatkumar
+ * Bootstrap spring application
+ * performs
+ * 1. Auto configuration
+ * 2. Start Application Context.
+ * 3. Perform class path scan
+ * 4. Start tomcat server. 
+ * https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints
+ */
 
-/*
- * https://app.pluralsight.com/library/courses/spring-rest/table-of-contents?aid=7010a000002BWq6AAG
-
-*/
 @SpringBootApplication
 public class BFriendsApplication {
 

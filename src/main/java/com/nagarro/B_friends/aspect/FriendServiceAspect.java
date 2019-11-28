@@ -13,7 +13,7 @@ public class FriendServiceAspect {
 	public void beforeAdvice(JoinPoint joinPoint, String firstName, String lastName) {
 		System.out.println("Before method:" + joinPoint.getSignature());
 
-		System.out.println("Creating Friend with name - " + firstName + " and id - " + lastName);
+		System.out.println("find Friend with name - " + firstName + " and id - " + lastName);
 	}
 
 	@After(value = "execution(* com.nagarro.B_friends.service.FriendService.*(..)) and args(firstName,lastName)")
